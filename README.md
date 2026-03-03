@@ -44,8 +44,7 @@ Key dependencies include:
 graphist/
 ├── env.yaml                    
 ├── README.md    
-├── LICENSE.md  
-├── .gitignore                  
+├── LICENSE.md                 
 ├── figs/                   
 │   ├── graphist_logo.png
 │   └── graphical_abstract.png
