@@ -339,7 +339,6 @@ def main():
                             criterion=criterion,
                             val_loader=val_loader,
                             model=model,
-                            n_classes=n_classes,
                         )
                         fold_val_f1_list.append(best_val_log_dict["val_f1"])
 

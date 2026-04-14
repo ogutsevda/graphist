@@ -69,11 +69,11 @@ def main(dataset, seed):
 
     # Initialize logistic regression model
     clf = LogisticRegression(
-        max_iter=2500, solver="lbfgs", class_weight="balanced", random_state=SEED
+        max_iter=2500, solver="lbfgs", class_weight="balanced", random_state=seed
     )
 
     # Cross-validation
-    skf = StratifiedKFold(n_splits=5, shuffle=True, random_state=SEED)
+    skf = StratifiedKFold(n_splits=5, shuffle=True, random_state=seed)
     scores = cross_validate(
         clf,
         X_train_scaled,
