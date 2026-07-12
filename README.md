@@ -8,8 +8,6 @@
 This repository contains the pre-processing, pre-training, and inference steps for GrapHist, a graph-based self-supervised learning framework for histopathology.
 <br/><br/>
 <a href="https://huggingface.co/ogutsevda">🤗 Models & Datasets</a> contain the pre-trained model weights and the constructed digital pathology graph datasets.
-<br/><br/>
-See our <a href="https://arxiv.org/pdf/2603.00143">📄 Preprint</a> for further details.
 </td>
 </tr>
 </table>
@@ -247,14 +245,4 @@ python src/evaluate/main_cell.py \
 
 ## 📚 Citation
 
-If this repository is helpful to you, please consider citing the associated paper:
-
-```bibtex
-@misc{ogut2026graphist,
-    title={GrapHist: Graph Self-Supervised Learning for Histopathology}, 
-    author={Sevda Öğüt and Cédric Vincent-Cuaz and Natalia Dubljevic and Carlos Hurtado and Vaishnavi Subramanian and Pascal Frossard and Dorina Thanou},
-    year={2026},
-    eprint={2603.00143},
-    url={https://arxiv.org/abs/2603.00143}, 
-}
-```
+If this repository is helpful to you, please consider citing the associated paper.
